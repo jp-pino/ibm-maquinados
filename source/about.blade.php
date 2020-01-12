@@ -64,7 +64,7 @@
 
 
 <div class="bg-gradient-br-blue-shades bg-scroll md:bg-fixed parallax bg-center bg-cover overflow-x-hidden" data-offset="0" data-offset-lg="-100" style="background-image: url(/assets/img/iStock-183408742_O.jpg);">
-	<img class="w-full h-full" src="/assets/img/divider.svg" style="transform:scaleX(1.015) translateY(-1px);">
+	<img class="w-full h-full" src="{{ $page->baseUrl }}/assets/img/divider.svg" style="transform:scaleX(1.015) translateY(-1px);">
 	<div class="container py-32 mx-auto">
 		<h1 class="text-white text-center text-5xl md:text-6xl"><span class="bg-gradient-br-blue-shades-dark px-4 py-1 rounded-sm opacity-90">Valores</span></h1>
 	</div>
@@ -80,7 +80,7 @@
 <div class="container lg:px-24 mx-auto w-10/12 bg-white reveal opacity-0 transition-all">
 	<div class="flex flex-wrap">
 		<div class="flex w-full md:w-1/2 content-center md:mt-0">
-			<img class="mx-auto w-7/12 h-full" src="/assets/img/undraw_team_spirit_hrr4.svg"/>
+			<img class="mx-auto w-7/12 h-full" src="{{ $page->baseUrl }}/assets/img/undraw_team_spirit_hrr4.svg"/>
 		</div>
 		<div class="w-full md:w-1/2">
 			<h1 class="text-4xl mb-1 font-bold">¿Cómo lo hacemos?</h1>
@@ -120,7 +120,7 @@
 
 
 @push('scripts')
-<script src="/assets/build/js/parallax.js"></script>
+<script src="{{ $page->baseUrl }}/assets/build/js/parallax.js"></script>
 <script>
 	$(document).ready(function() {
 		$('#compromiso').hover(function() {

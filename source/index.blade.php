@@ -7,7 +7,7 @@
 		<h1 class="text-white text-center text-5xl md:text-8xl "><span class="opacity-90 bg-gradient-br-blue-shades-dark px-2 pb-1 rounded-sm">IBM Maquinados</span></h1>
 		<h2 class="text-white pb-24 text-center text-2xl md:text-4xl"><span class="opacity-70 bg-gray-900 px-1 pb-1 rounded-sm">Refacciones y equipo industrial</span></h2>
 		<div class="container mx-auto text-center">
-			<a class="mx-auto bg-blue-900 rounded-lg border-white text-white p-3 border-2 text-2xl hover:bg-blue-700 hover:text-blue-100 hover:border-blue-100 transition-all" href="/contact">Cotizar</a>
+			<a class="mx-auto bg-blue-900 rounded-lg border-white text-white p-3 border-2 text-2xl hover:bg-blue-700 hover:text-blue-100 hover:border-blue-100 transition-all" href="{{ $page->baseUrl }}/contact">Cotizar</a>
 		</div>
 	</div>
 </div>
@@ -61,14 +61,14 @@
 			<div class="table w-full">
 			  <div class="table-row">
 			    <div class="table-cell p-1">
-						<a href="/products#general">
+						<a href="{{ $page->baseUrl }}/products#general">
 							<div class="rounded shadow-lg bg-gradient-b-blue-shades-ultra-dark text-white md:hover:scale-105 transition-transform w-full px-2 py-8 text-lg text-center">
 								Industria en general
 							</div>
 						</a>
 					</div>
 			    <div class="table-cell p-1">
-						<a href="/products#minera">
+						<a href="{{ $page->baseUrl }}/products#minera">
 							<div class="rounded shadow-lg bg-gradient-b-blue-shades-ultra-dark text-white md:hover:scale-105 transition-transform w-full px-2 py-8 text-lg text-center">
 								Industria minera
 							</div>
@@ -77,14 +77,14 @@
 			  </div>
 			  <div class="table-row">
 			    <div class="table-cell p-1">
-						<a href="/products#construccion">
+						<a href="{{ $page->baseUrl }}/products#construccion">
 							<div class="rounded shadow-lg bg-gradient-b-blue-shades-ultra-dark text-white md:hover:scale-105 transition-transform w-full px-2 py-8 text-lg text-center">
 								Construcción
 							</div>
 						</a>
 					</div>
 			    <div class="table-cell p-1">
-						<a href="/products#cilindros">
+						<a href="{{ $page->baseUrl }}/products#cilindros">
 							<div class="rounded shadow-lg bg-gradient-b-blue-shades-ultra-dark text-white md:hover:scale-105 transition-transform w-full px-2 py-8 text-lg text-center">
 								Cilindros hidráulicos
 							</div>
@@ -93,7 +93,7 @@
 			  </div>
 				<div class="table-row">
 			    <div class="table-cell p-1">
-						<a href="/products#paileria">
+						<a href="{{ $page->baseUrl }}/products#paileria">
 							<div class="rounded shadow-lg bg-gradient-b-blue-shades-ultra-dark text-white md:hover:scale-105 transition-transform w-full px-2 py-8 text-lg text-center">
 								Pailería
 							</div>
@@ -131,7 +131,7 @@
 
 
 @push('scripts')
-	<script src="/assets/build/js/parallax.js"></script>
+	<script src="{{ $page->baseUrl }}/assets/build/js/parallax.js"></script>
 	<script>
 		$('#otros-contacto').click(function () {
 			$('#modal').css('z-index', '100');

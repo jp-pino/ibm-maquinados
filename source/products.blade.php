@@ -37,7 +37,7 @@
   </div>
 
   <div id="general" class="bg-gradient-br-blue-shades bg-scroll md:bg-fixed parallax bg-center bg-cover overflow-x-hidden" data-offset="0" data-offset-lg="-100" style="background-image: url(/assets/img/iStock-458884391.jpg);">
-    <img class="w-full h-full" src="/assets/img/divider.svg" style="transform:scaleX(1.015) translateY(-1px);">
+    <img class="w-full h-full" src="{{ $page->baseUrl }}/assets/img/divider.svg" style="transform:scaleX(1.015) translateY(-1px);">
     <div class="container py-32 mx-auto">
       <h1 class="text-white text-center text-4xl md:text-6xl"><span class="bg-gradient-br-blue-shades-dark px-4 py-1 rounded-sm opacity-90">Industria en general</span></h1>
     </div>
@@ -53,7 +53,7 @@
   </div>
 
   <div id="minera" class="bg-gradient-br-blue-shades bg-scroll md:bg-fixed parallax bg-center bg-cover overflow-x-hidden" data-offset="0" data-offset-lg="-100" style="background-image: url(/assets/img/iStock-458884391.jpg);">
-  	<img class="w-full h-full" src="/assets/img/divider.svg" style="transform:scaleX(1.015) translateY(-1px);">
+  	<img class="w-full h-full" src="{{ $page->baseUrl }}/assets/img/divider.svg" style="transform:scaleX(1.015) translateY(-1px);">
   	<div class="container py-32 mx-auto">
   		<h1 class="text-white text-center text-4xl md:text-6xl"><span class="bg-gradient-br-blue-shades-dark px-4 py-1 rounded-sm opacity-90">Industria Minera</span></h1>
   	</div>
@@ -147,7 +147,7 @@
   </div>
 
   <div id="cilindros" class="bg-gradient-br-blue-shades bg-scroll md:bg-fixed parallax bg-center bg-cover overflow-x-hidden" data-offset="0" data-offset-lg="-100" style="background-image: url(/assets/img/iStock-458884391.jpg);">
-  	<img class="w-full h-full" src="/assets/img/divider.svg" style="transform:scaleX(1.015) translateY(-1px);">
+  	<img class="w-full h-full" src="{{ $page->baseUrl }}/assets/img/divider.svg" style="transform:scaleX(1.015) translateY(-1px);">
   	<div class="container py-32 mx-auto">
   		<h1 class="text-white text-center text-4xl md:text-6xl"><span class="bg-gradient-br-blue-shades-dark px-4 py-1 rounded-sm opacity-90">Cilindros hidráulicos</span></h1>
   	</div>
@@ -162,7 +162,7 @@
   </div>
 
   <div id="construccion" class="bg-gradient-br-blue-shades bg-scroll md:bg-fixed parallax bg-center bg-cover overflow-x-hidden" data-offset="0" data-offset-lg="-100" style="background-image: url(/assets/img/iStock-458884391.jpg);">
-  	<img class="w-full h-full" src="/assets/img/divider.svg" style="transform:scaleX(1.015) translateY(-1px);">
+  	<img class="w-full h-full" src="{{ $page->baseUrl }}/assets/img/divider.svg" style="transform:scaleX(1.015) translateY(-1px);">
   	<div class="container py-32 mx-auto">
   		<h1 class="text-white text-center text-4xl md:text-6xl"><span class="bg-gradient-br-blue-shades-dark px-4 py-1 rounded-sm opacity-90">Construcción</span></h1>
   	</div>
@@ -181,7 +181,7 @@
 
 
   <div id="paileria" class="bg-gradient-br-blue-shades bg-scroll md:bg-fixed parallax bg-center bg-cover overflow-x-hidden" data-offset="0" data-offset-lg="-100" style="background-image: url(/assets/img/iStock-458884391.jpg);">
-  	<img class="w-full h-full" src="/assets/img/divider.svg" style="transform:scaleX(1.015) translateY(-1px);">
+  	<img class="w-full h-full" src="{{ $page->baseUrl }}/assets/img/divider.svg" style="transform:scaleX(1.015) translateY(-1px);">
   	<div class="container py-32 mx-auto">
   		<h1 class="text-white text-center text-4xl md:text-6xl"><span class="bg-gradient-br-blue-shades-dark px-4 py-1 rounded-sm opacity-90">Pailería</span></h1>
   	</div>
@@ -208,5 +208,5 @@
     });
   </script>
 
-	<script src="/assets/build/js/parallax.js"></script>
+	<script src="{{ $page->baseUrl }}/assets/build/js/parallax.js"></script>
 @endpush
