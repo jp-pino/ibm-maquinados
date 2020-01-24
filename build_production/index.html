@@ -99,7 +99,7 @@
 		<h1 class="text-white text-center text-5xl md:text-8xl "><span class="opacity-90 bg-gradient-br-blue-shades-dark px-2 pb-1 rounded-sm">IBM Maquinados</span></h1>
 		<h2 class="text-white pb-24 text-center text-2xl md:text-4xl"><span class="opacity-70 bg-gray-900 px-1 pb-1 rounded-sm">Refacciones y equipo industrial</span></h2>
 		<div class="container mx-auto text-center">
-			<a class="mx-auto bg-blue-900 rounded-lg border-white text-white p-3 border-2 text-2xl hover:bg-blue-700 hover:text-blue-100 hover:border-blue-100 transition-all" href="https://jp-pino.github.io/ibm-maquinados/contact">Cotizar</a>
+			<a id="contact-header" class="mx-auto bg-blue-900 rounded-lg border-white text-white p-3 border-2 text-2xl hover:bg-blue-700 hover:text-blue-100 hover:border-blue-100 transition-all" href="#">Cotizar</a>
 		</div>
 	</div>
 </div>
@@ -572,6 +572,9 @@
 			$('#modal').fadeTo('slow', 1);
 			$('#contactModal').removeClass('hidden');
 			$('#contactModal').css('z-index', '101');
+		});
+		$('#contact-header').click(function () {
+			$('#otros-contacto').click();
 		});
 	</script>
 <script src="https://jp-pino.github.io/ibm-maquinados/assets/build/js/classie.js"></script>
