@@ -2,7 +2,7 @@
 
 @section('body')
 
-<div class="bg-gradient-br-blue-shades h-full bg-scroll md:bg-fixed parallax bg-center bg-cover py-8 bg-blend-soft-light" data-offset="0" data-offset-lg="-50" style="background-image: url({{ $page->baseUrl }}assets/img/iStock-175406237_O.jpg)">
+<div class="bg-gradient-br-blue-shades h-full bg-scroll md:bg-fixed parallax bg-center bg-cover py-8 bg-blend-soft-light" data-offset="0" data-offset-lg="-50" style="background-image: url({{ $page->baseUrl }}assets/img/iStock-458884391.jpg)">
 {{-- <div class="bg-gradient-br-blue-shades h-full bg-scroll md:bg-fixed parallax bg-cover lg:bg-contain py-8"> --}}
 	<div class="container py-64 mx-auto">
 		<h1 class="text-white text-center text-5xl md:text-8xl "><span class="opacity-90 bg-gradient-br-blue-shades-dark px-2 pb-1 rounded-sm">Nosotros</span></h1>
@@ -63,7 +63,7 @@
 
 
 
-<div class="bg-gradient-br-blue-shades bg-scroll md:bg-fixed parallax bg-center bg-cover overflow-x-hidden" data-offset="0" data-offset-lg="-100" style="background-image: url({{ $page->baseUrl }}assets/img/iStock-183408742_O.jpg);">
+<div class="bg-gradient-br-blue-shades bg-scroll md:bg-fixed parallax bg-center bg-cover overflow-x-hidden" data-offset="0" data-offset-lg="-100" style="background-image: url({{ $page->baseUrl }}assets/img/iStock-156760708.jpg);">
 	<img class="w-full h-full" src="{{ $page->baseUrl }}assets/img/divider.svg" style="transform:scaleX(1.015) translateY(-1px);">
 	<div class="container py-48 mx-auto">
 		<h1 class="text-white text-center text-5xl md:text-6xl"><span class="bg-gradient-br-blue-shades-dark px-4 py-1 rounded-sm opacity-90">Valores</span></h1>

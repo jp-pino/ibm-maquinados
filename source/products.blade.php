@@ -36,7 +36,7 @@
   	</div>
   </div>
 
-  <div id="general" class="bg-gradient-br-blue-shades bg-scroll md:bg-fixed parallax bg-center bg-cover overflow-x-hidden" data-offset="0" data-offset-lg="-100" style="background-image: url({{ $page->baseUrl }}assets/img/iStock-458884391.jpg);">
+  <div id="general" class="bg-gradient-br-blue-shades bg-scroll md:bg-fixed parallax bg-center bg-cover overflow-x-hidden" data-offset="0" data-offset-lg="-100" style="background-image: url({{ $page->baseUrl }}assets/img/iStock-171158907.jpg);">
     <img class="w-full h-full" src="{{ $page->baseUrl }}assets/img/divider.svg" style="transform:scaleX(1.015) translateY(-1px);">
     <div class="container py-48 mx-auto">
       <h1 class="text-white text-center text-4xl md:text-6xl"><span class="bg-gradient-br-blue-shades-dark px-4 py-1 rounded-sm opacity-90">Industria en general</span></h1>
@@ -52,7 +52,7 @@
     <div class="font-semibold w-full bg-gray-200 border-b-2 text-center md:text-left py-4 md:pl-8 transition-all">Flechas, poleas, impulsores</div>
   </div>
 
-  <div id="minera" class="bg-gradient-br-blue-shades bg-scroll md:bg-fixed parallax bg-center bg-cover overflow-x-hidden" data-offset="0" data-offset-lg="-100" style="background-image: url({{ $page->baseUrl }}assets/img/iStock-458884391.jpg);">
+  <div id="minera" class="bg-gradient-br-blue-shades bg-scroll md:bg-fixed parallax bg-center bg-cover overflow-x-hidden" data-offset="0" data-offset-lg="-100" style="background-image: url({{ $page->baseUrl }}assets/img/iStock-457740707.jpg);">
   	<img class="w-full h-full" src="{{ $page->baseUrl }}assets/img/divider.svg" style="transform:scaleX(1.015) translateY(-1px);">
   	<div class="container py-48 mx-auto">
   		<h1 class="text-white text-center text-4xl md:text-6xl"><span class="bg-gradient-br-blue-shades-dark px-4 py-1 rounded-sm opacity-90">Industria Minera</span></h1>
@@ -146,7 +146,7 @@
 
   </div>
 
-  <div id="cilindros" class="bg-gradient-br-blue-shades bg-scroll md:bg-fixed parallax bg-center bg-cover overflow-x-hidden" data-offset="0" data-offset-lg="-100" style="background-image: url({{ $page->baseUrl }}assets/img/iStock-458884391.jpg);">
+  <div id="cilindros" class="bg-gradient-br-blue-shades bg-scroll md:bg-fixed parallax bg-center bg-cover overflow-x-hidden" data-offset="0" data-offset-lg="-100" style="background-image: url({{ $page->baseUrl }}assets/img/AdobeStock_209976704.jpeg);">
   	<img class="w-full h-full" src="{{ $page->baseUrl }}assets/img/divider.svg" style="transform:scaleX(1.015) translateY(-1px);">
   	<div class="container py-48 mx-auto">
   		<h1 class="text-white text-center text-4xl md:text-6xl"><span class="bg-gradient-br-blue-shades-dark px-4 py-1 rounded-sm opacity-90">Cilindros hidráulicos</span></h1>
@@ -161,7 +161,7 @@
     <div class="font-semibold w-full bg-gray-200 border-b-2 text-center md:text-left py-4 md:pl-8 transition-all">Fabricación de camisas, vástagos, émbolos, tapas y ojillos</div>
   </div>
 
-  <div id="construccion" class="bg-gradient-br-blue-shades bg-scroll md:bg-fixed parallax bg-center bg-cover overflow-x-hidden" data-offset="0" data-offset-lg="-100" style="background-image: url({{ $page->baseUrl }}assets/img/iStock-458884391.jpg);">
+  <div id="construccion" class="bg-gradient-br-blue-shades bg-scroll md:bg-fixed parallax bg-center bg-cover overflow-x-hidden" data-offset="0" data-offset-lg="-100" style="background-image: url({{ $page->baseUrl }}assets/img/AdobeStock_239723881.jpeg);">
   	<img class="w-full h-full" src="{{ $page->baseUrl }}assets/img/divider.svg" style="transform:scaleX(1.015) translateY(-1px);">
   	<div class="container py-48 mx-auto">
   		<h1 class="text-white text-center text-4xl md:text-6xl"><span class="bg-gradient-br-blue-shades-dark px-4 py-1 rounded-sm opacity-90">Construcción</span></h1>
@@ -180,7 +180,7 @@
 
 
 
-  <div id="paileria" class="bg-gradient-br-blue-shades bg-scroll md:bg-fixed parallax bg-center bg-cover overflow-x-hidden" data-offset="0" data-offset-lg="-100" style="background-image: url({{ $page->baseUrl }}assets/img/iStock-458884391.jpg);">
+  <div id="paileria" class="bg-gradient-br-blue-shades bg-scroll md:bg-fixed parallax bg-center bg-cover overflow-x-hidden" data-offset="0" data-offset-lg="-100" style="background-image: url({{ $page->baseUrl }}assets/img/AdobeStock_92076411.jpeg);">
   	<img class="w-full h-full" src="{{ $page->baseUrl }}assets/img/divider.svg" style="transform:scaleX(1.015) translateY(-1px);">
   	<div class="container py-48 mx-auto">
   		<h1 class="text-white text-center text-4xl md:text-6xl"><span class="bg-gradient-br-blue-shades-dark px-4 py-1 rounded-sm opacity-90">Pailería</span></h1>
