@@ -1,13 +1,13 @@
 @extends('_layouts.master')
 
 @section('body')
-<div class="bg-gradient-br-blue-shades h-full parallax bg-center bg-cover bg-scroll md:bg-fixed py-8 bg-blend-soft-light" data-offset="-100" data-offset-lg="-100" style="background-image: url(assets/img/cover.jpg)">
+<div class="bg-gradient-br-blue-shades h-full parallax bg-center bg-cover bg-scroll md:bg-fixed py-8 bg-blend-soft-light" data-offset="-100" data-offset-lg="-100" style="background-image: url({{ $page->baseUrl }}assets/img/cover.jpg)">
 {{-- <div class="bg-gradient-br-blue-shades h-full bg-fixed parallax bg-cover lg:bg-contain py-8"> --}}
 	<div class="container py-64 mx-auto">
 		<h1 class="text-white text-center text-5xl md:text-8xl "><span class="opacity-90 bg-gradient-br-blue-shades-dark px-2 pb-1 rounded-sm">IBM Maquinados</span></h1>
 		<h2 class="text-white pb-24 text-center text-2xl md:text-4xl"><span class="opacity-70 bg-gray-900 px-1 pb-1 rounded-sm">Refacciones y equipo industrial</span></h2>
 		<div class="container mx-auto text-center">
-			<a class="mx-auto bg-blue-900 rounded-lg border-white text-white p-3 border-2 text-2xl hover:bg-blue-700 hover:text-blue-100 hover:border-blue-100 transition-all" href="{{ $page->baseUrl }}/contact">Cotizar</a>
+			<a id="contact-header" class="mx-auto bg-blue-900 rounded-lg border-white text-white p-3 border-2 text-2xl hover:bg-blue-700 hover:text-blue-100 hover:border-blue-100 transition-all" href="#">Cotizar</a>
 		</div>
 	</div>
 </div>
@@ -43,15 +43,15 @@
 </div>
 
 
-<div class="bg-gradient-br-blue-shades bg-scroll h-full md:bg-fixed parallax bg-center bg-cover overflow-x-hidden" data-offset="20" data-offset-lg="-100" style="background-image: url(assets/img/iStock-458884391.jpg);">
+<div class="bg-gradient-br-blue-shades bg-scroll h-full md:bg-fixed parallax bg-center bg-cover overflow-x-hidden" data-offset="20" data-offset-lg="-200" style="background-image: url({{ $page->baseUrl }}assets/img/iStock-155600111_O.jpg);">
 	<img class="w-full h-full" src="assets/img/divider.svg" style="transform:scaleX(1.015) translateY(-1px);">
-	<div class="container py-32 mx-auto">
+	<div class="container py-48 mx-auto">
 		<h1 class="text-white text-center text-4xl md:text-6xl"><span class="bg-gradient-br-blue-shades-dark px-4 py-1 rounded-sm opacity-90">Productos</span></h1>
 	</div>
 </div>
 
 <div class="container lg:px-24 mx-auto my-8 pt-8 w-10/12 bg-white">
-	<div class="flex flex-wrap mt-16">
+	<div class="flex flex-wrap mt-4">
 		<div class="w-full md:w-1/2">
 			<h1 class="text-4xl mb-1 font-bold">¿Qué hacemos?</h1>
 			<div class="h-1 w-9/12 md:w-7/12 bg-gradient-br-blue-shades"></div>
@@ -61,14 +61,14 @@
 			<div class="table w-full">
 			  <div class="table-row">
 			    <div class="table-cell p-1">
-						<a href="{{ $page->baseUrl }}/products#general">
+						<a href="{{ $page->baseUrl }}products#general">
 							<div class="rounded shadow-lg bg-gradient-b-blue-shades-ultra-dark text-white md:hover:scale-105 transition-transform w-full px-2 py-8 text-lg text-center">
 								Industria en general
 							</div>
 						</a>
 					</div>
 			    <div class="table-cell p-1">
-						<a href="{{ $page->baseUrl }}/products#minera">
+						<a href="{{ $page->baseUrl }}products#minera">
 							<div class="rounded shadow-lg bg-gradient-b-blue-shades-ultra-dark text-white md:hover:scale-105 transition-transform w-full px-2 py-8 text-lg text-center">
 								Industria minera
 							</div>
@@ -77,14 +77,14 @@
 			  </div>
 			  <div class="table-row">
 			    <div class="table-cell p-1">
-						<a href="{{ $page->baseUrl }}/products#construccion">
+						<a href="{{ $page->baseUrl }}products#construccion">
 							<div class="rounded shadow-lg bg-gradient-b-blue-shades-ultra-dark text-white md:hover:scale-105 transition-transform w-full px-2 py-8 text-lg text-center">
 								Construcción
 							</div>
 						</a>
 					</div>
 			    <div class="table-cell p-1">
-						<a href="{{ $page->baseUrl }}/products#cilindros">
+						<a href="{{ $page->baseUrl }}products#cilindros">
 							<div class="rounded shadow-lg bg-gradient-b-blue-shades-ultra-dark text-white md:hover:scale-105 transition-transform w-full px-2 py-8 text-lg text-center">
 								Cilindros hidráulicos
 							</div>
@@ -93,7 +93,7 @@
 			  </div>
 				<div class="table-row">
 			    <div class="table-cell p-1">
-						<a href="{{ $page->baseUrl }}/products#paileria">
+						<a href="{{ $page->baseUrl }}products#paileria">
 							<div class="rounded shadow-lg bg-gradient-b-blue-shades-ultra-dark text-white md:hover:scale-105 transition-transform w-full px-2 py-8 text-lg text-center">
 								Pailería
 							</div>
@@ -111,9 +111,9 @@
 </div>
 
 
-<div class="mt-24 bg-gradient-br-blue-shades bg-scroll md:bg-fixed parallax bg-center bg-cover overflow-x-hidden" data-offset="20" data-offset-lg="-100" style="background-image: url(assets/img/iStock-457740707.jpg);">
+<div class="mt-24 bg-gradient-br-blue-shades bg-scroll md:bg-fixed parallax bg-center bg-cover overflow-x-hidden" data-offset="20" data-offset-lg="-100" style="background-image: url({{ $page->baseUrl }}assets/img/iStock-175406237_O.jpg);">
 	<img class="w-full h-full" src="assets/img/divider.svg" style="transform:scaleX(1.015) translateY(-1px);">
-	<div class="container py-32 mx-auto">
+	<div class="container py-48 mx-auto">
 		<h1 class="text-white text-center text-4xl md:text-6xl"><span class="bg-gradient-br-blue-shades-dark px-4 py-1 rounded-sm opacity-90">Clientes</span></h1>
 	</div>
 </div>
@@ -131,13 +131,16 @@
 
 
 @push('scripts')
-	<script src="{{ $page->baseUrl }}/assets/build/js/parallax.js"></script>
+	<script src="{{ $page->baseUrl }}assets/build/js/parallax.js"></script>
 	<script>
 		$('#otros-contacto').click(function () {
 			$('#modal').css('z-index', '100');
 			$('#modal').fadeTo('slow', 1);
 			$('#contactModal').removeClass('hidden');
 			$('#contactModal').css('z-index', '101');
+		});
+		$('#contact-header').click(function () {
+			$('#otros-contacto').click();
 		});
 	</script>
 @endpush

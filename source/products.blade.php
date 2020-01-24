@@ -1,7 +1,7 @@
 @extends('_layouts.master')
 
 @section('body')
-  <div class="bg-gradient-br-blue-shades h-full bg-scroll md:bg-fixed parallax bg-center bg-cover py-8 bg-blend-soft-light" data-offset="0" data-offset-lg="-50" style="background-image: url(/assets/img/iStock-175406237_O.jpg)">
+  <div class="bg-gradient-br-blue-shades h-full bg-scroll md:bg-fixed parallax bg-center bg-cover py-8 bg-blend-soft-light" data-offset="0" data-offset-lg="-50" style="background-image: url({{ $page->baseUrl }}assets/img/iStock-155600111_O.jpg)">
   {{-- <div class="bg-gradient-br-blue-shades h-full bg-scroll md:bg-fixed parallax bg-cover lg:bg-contain py-8"> --}}
   	<div class="container py-64 mx-auto">
   		<h1 class="text-white text-center text-5xl md:text-8xl "><span class="opacity-90 bg-gradient-br-blue-shades-dark px-2 pb-1 rounded-sm">Productos</span></h1>
@@ -30,15 +30,15 @@
   	<div class="flex flex-wrap mt-16">
   		<div class="w-full">
   			<h1 class="text-4xl mb-1 font-bold">Nuestros productos</h1>
-  			<div class="h-1 w-9/12 md:w-6/12 lg:w-6/12 bg-gradient-br-blue-shades"></div>
+  			<div class="h-1 w-9/12 md:w-6/12 lg:w-6/12 xl: bg-gradient-br-blue-shades"></div>
   			<p class="text-justify mt-16 text-lg">IBM Maquinados S.A. de C.V. se constituyo en el año 2005 con el propósito de ofrecer a la industria nacional refacciones y equipo industrial con la mas alta calidad y a precios accesibles. Somos un equipo de profesionales en diversas áreas de ingeniería (industrial, mecánica y materiales), operadores altamente calificados, ingenieros de campo y personal administrativo, comprometidos con proporcionar un servicio de ingeniería que supere las expectativas de nuestros clientes. A través de diversas empresas del grupo IBM, nos respaldan 30 años de experiencia, que hemos adquirido gracias a la constante trayectoria de trabajo y desarrollo de proyectos para empresas como Petróleos Mexicanos, Industrias Peñoles, Grupo Acerero Del Norte, Grupo LuisMin, Gold Corp México, Capstone Gold, entre otras.</p>
   		</div>
   	</div>
   </div>
 
-  <div id="general" class="bg-gradient-br-blue-shades bg-scroll md:bg-fixed parallax bg-center bg-cover overflow-x-hidden" data-offset="0" data-offset-lg="-100" style="background-image: url(/assets/img/iStock-458884391.jpg);">
-    <img class="w-full h-full" src="{{ $page->baseUrl }}/assets/img/divider.svg" style="transform:scaleX(1.015) translateY(-1px);">
-    <div class="container py-32 mx-auto">
+  <div id="general" class="bg-gradient-br-blue-shades bg-scroll md:bg-fixed parallax bg-center bg-cover overflow-x-hidden" data-offset="0" data-offset-lg="-100" style="background-image: url({{ $page->baseUrl }}assets/img/iStock-458884391.jpg);">
+    <img class="w-full h-full" src="{{ $page->baseUrl }}assets/img/divider.svg" style="transform:scaleX(1.015) translateY(-1px);">
+    <div class="container py-48 mx-auto">
       <h1 class="text-white text-center text-4xl md:text-6xl"><span class="bg-gradient-br-blue-shades-dark px-4 py-1 rounded-sm opacity-90">Industria en general</span></h1>
     </div>
   </div>
@@ -52,9 +52,9 @@
     <div class="font-semibold w-full bg-gray-200 border-b-2 text-center md:text-left py-4 md:pl-8 transition-all">Flechas, poleas, impulsores</div>
   </div>
 
-  <div id="minera" class="bg-gradient-br-blue-shades bg-scroll md:bg-fixed parallax bg-center bg-cover overflow-x-hidden" data-offset="0" data-offset-lg="-100" style="background-image: url(/assets/img/iStock-458884391.jpg);">
-  	<img class="w-full h-full" src="{{ $page->baseUrl }}/assets/img/divider.svg" style="transform:scaleX(1.015) translateY(-1px);">
-  	<div class="container py-32 mx-auto">
+  <div id="minera" class="bg-gradient-br-blue-shades bg-scroll md:bg-fixed parallax bg-center bg-cover overflow-x-hidden" data-offset="0" data-offset-lg="-100" style="background-image: url({{ $page->baseUrl }}assets/img/iStock-458884391.jpg);">
+  	<img class="w-full h-full" src="{{ $page->baseUrl }}assets/img/divider.svg" style="transform:scaleX(1.015) translateY(-1px);">
+  	<div class="container py-48 mx-auto">
   		<h1 class="text-white text-center text-4xl md:text-6xl"><span class="bg-gradient-br-blue-shades-dark px-4 py-1 rounded-sm opacity-90">Industria Minera</span></h1>
   	</div>
   </div>
@@ -146,9 +146,9 @@
 
   </div>
 
-  <div id="cilindros" class="bg-gradient-br-blue-shades bg-scroll md:bg-fixed parallax bg-center bg-cover overflow-x-hidden" data-offset="0" data-offset-lg="-100" style="background-image: url(/assets/img/iStock-458884391.jpg);">
-  	<img class="w-full h-full" src="{{ $page->baseUrl }}/assets/img/divider.svg" style="transform:scaleX(1.015) translateY(-1px);">
-  	<div class="container py-32 mx-auto">
+  <div id="cilindros" class="bg-gradient-br-blue-shades bg-scroll md:bg-fixed parallax bg-center bg-cover overflow-x-hidden" data-offset="0" data-offset-lg="-100" style="background-image: url({{ $page->baseUrl }}assets/img/iStock-458884391.jpg);">
+  	<img class="w-full h-full" src="{{ $page->baseUrl }}assets/img/divider.svg" style="transform:scaleX(1.015) translateY(-1px);">
+  	<div class="container py-48 mx-auto">
   		<h1 class="text-white text-center text-4xl md:text-6xl"><span class="bg-gradient-br-blue-shades-dark px-4 py-1 rounded-sm opacity-90">Cilindros hidráulicos</span></h1>
   	</div>
   </div>
@@ -161,9 +161,9 @@
     <div class="font-semibold w-full bg-gray-200 border-b-2 text-center md:text-left py-4 md:pl-8 transition-all">Fabricación de camisas, vástagos, émbolos, tapas y ojillos</div>
   </div>
 
-  <div id="construccion" class="bg-gradient-br-blue-shades bg-scroll md:bg-fixed parallax bg-center bg-cover overflow-x-hidden" data-offset="0" data-offset-lg="-100" style="background-image: url(/assets/img/iStock-458884391.jpg);">
-  	<img class="w-full h-full" src="{{ $page->baseUrl }}/assets/img/divider.svg" style="transform:scaleX(1.015) translateY(-1px);">
-  	<div class="container py-32 mx-auto">
+  <div id="construccion" class="bg-gradient-br-blue-shades bg-scroll md:bg-fixed parallax bg-center bg-cover overflow-x-hidden" data-offset="0" data-offset-lg="-100" style="background-image: url({{ $page->baseUrl }}assets/img/iStock-458884391.jpg);">
+  	<img class="w-full h-full" src="{{ $page->baseUrl }}assets/img/divider.svg" style="transform:scaleX(1.015) translateY(-1px);">
+  	<div class="container py-48 mx-auto">
   		<h1 class="text-white text-center text-4xl md:text-6xl"><span class="bg-gradient-br-blue-shades-dark px-4 py-1 rounded-sm opacity-90">Construcción</span></h1>
   	</div>
   </div>
@@ -180,9 +180,9 @@
 
 
 
-  <div id="paileria" class="bg-gradient-br-blue-shades bg-scroll md:bg-fixed parallax bg-center bg-cover overflow-x-hidden" data-offset="0" data-offset-lg="-100" style="background-image: url(/assets/img/iStock-458884391.jpg);">
-  	<img class="w-full h-full" src="{{ $page->baseUrl }}/assets/img/divider.svg" style="transform:scaleX(1.015) translateY(-1px);">
-  	<div class="container py-32 mx-auto">
+  <div id="paileria" class="bg-gradient-br-blue-shades bg-scroll md:bg-fixed parallax bg-center bg-cover overflow-x-hidden" data-offset="0" data-offset-lg="-100" style="background-image: url({{ $page->baseUrl }}assets/img/iStock-458884391.jpg);">
+  	<img class="w-full h-full" src="{{ $page->baseUrl }}assets/img/divider.svg" style="transform:scaleX(1.015) translateY(-1px);">
+  	<div class="container py-48 mx-auto">
   		<h1 class="text-white text-center text-4xl md:text-6xl"><span class="bg-gradient-br-blue-shades-dark px-4 py-1 rounded-sm opacity-90">Pailería</span></h1>
   	</div>
   </div>
@@ -208,5 +208,5 @@
     });
   </script>
 
-	<script src="{{ $page->baseUrl }}/assets/build/js/parallax.js"></script>
+	<script src="{{ $page->baseUrl }}assets/build/js/parallax.js"></script>
 @endpush

@@ -1,61 +1,9 @@
-{{-- <div class="bg-gray-100">
-	<div class="container mx-auto bg-gray-100 py-8 w-10/12 lg:px-24">
-		<div class="flex flex-wrap mb-4">
-			<div class="w-1/4 h-auto pr-8">
-				<div class="rounded-full bg-gradient-b-blue-shades-ultra-dark items-center">
-					<img src="/assets/img/ibm-notext.png" class="fill-current w-full" width="30" height="30"/>
-				</div>
-			</div>
-
-			<div class="w-1/4 h-auto sm:mt-0 mt-8">
-				<div class="text-blue mb-2">Blue</div>
-				<ul class="list-reset leading-normal">
-					<li class="hover:text-blue text-gray-800">One</li>
-					<li class="hover:text-blue text-gray-800">Two</li>
-					<li class="hover:text-blue text-gray-800">Three</li>
-				</ul>
-				<div class="text-blue-300 mb-2 mt-4">Blue-300</div>
-				<ul class="list-reset leading-normal">
-					<li class="hover:text-blue-300 text-gray-800">One</li>
-					<li class="hover:text-blue-300 text-gray-800">Two</li>
-					<li class="hover:text-blue-300 text-gray-800">Three</li>
-				</ul>
-			</div>
-
-			<div class="w-1/4 h-auto sm:mt-0 mt-8">
-				<div class="text-green-900 mb-2">Green-900</div>
-				<ul class="list-reset leading-normal">
-					<li class="hover:text-green-900 text-gray-800">One</li>
-					<li class="hover:text-green-900 text-gray-800">Two</li>
-					<li class="hover:text-green-900 text-gray-800">Three</li>
-				</ul>
-				<div class="text-green-300 mb-2 mt-4">Green-300</div>
-				<ul class="list-reset leading-normal">
-					<li class="hover:text-green-300 text-gray-800">One</li>
-					<li class="hover:text-green-300 text-gray-800">Two</li>
-					<li class="hover:text-green-300 text-gray-800">Three</li>
-				</ul>
-			</div>
-
-			<div class="w-1/4 sm:mt-0 mt-8 h-auto">
-				<div class="text-red-300 mb-2">Newsletter</div>
-				<p class="text-gray-800 leading-normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, consectetur. </p>
-				<div class="mt-4 flex">
-					<input type="text" class="p-2 border border-gray-300 round text-gray-900 text-sm h-auto" placeholder="Your email address">
-					<button class="bg-orange text-white rounded-sm h-auto text-xs p-3">Subscribe</button>
-				</div>
-			</div>
-		</div>
-	</div>
-</div> --}}
-
-
 <div class="bg-gray-100 py-16">
 	<div class="container lg:px-24 mx-auto w-10/12 bg-gray-100">
 		<div class="flex flex-wrap">
 			<div class="w-full md:w-1/3 lg:w-2/12 md:pr-4 lg:ml-24">
 				<div class="rounded-full bg-gradient-b-blue-shades-ultra-dark items-center p-4 m-16 md:m-0">
-					<img src="/assets/img/ibm-notext.png" class="fill-current w-full" width="30" height="30"/>
+					<img src="{{ $page->baseUrl }}assets/img/ibm-notext.png" class="fill-current w-full" width="30" height="30"/>
 				</div>
 			</div>
 			<div class="w-full md:w-1/3"></div>
@@ -87,8 +35,8 @@
 	</script>
 @endpush
 
-@push('modals')
+{{-- @push('modals')
 	<div id="contactModal" class="w-7/12 h-7/12 bg-white rounded-lg shadow hidden mx-auto">
 
 	</div>
-@endpush
+@endpush --}}
