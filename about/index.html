@@ -169,7 +169,7 @@
 		<h1 id="integridad" class="reveal rounded p-1 opacity-0 transition-all absolute top-7/10 left-5/10 md:left-6/10 text-center text-3xl md:text-5xl gradient-text bg-gradient-tl-blue-shades font-bold">Integridad</h1>
 </div>
 
-<div class="container hidden sm:block lg:px-24 mx-auto my-8 w-10/12 bg-white reveal opacity-0 transition-all">
+<div class="container hidden sm:block lg:px-24 mx-auto my-16 w-10/12 bg-white reveal opacity-0 transition-all">
 	<ul id="titles" class="flex border-b">
 	  <li class="-mb-px mr-1">
 	    <a class="bg-white inline-block border-l border-t border-r rounded-t py-2 px-4 text-blue-700 font-semibold" data-index="0">Compromiso</a>
@@ -186,19 +186,19 @@
 	</ul>
 	<div class="flex flex-wrap my-12">
 		<div id="cards" class="w-full">
-			<div class="bg-blue-600 text-white p-3 rounded-sm font-semibold shadow" data-index="0">
+			<div class="bg-blue-600 text-white px-8 py-16 rounded-sm font-semibold shadow text-center text-xl" data-index="0">
 				Estamos comprometidos con nuestros clientes a entregar productos de la más alta calidad y servicios de excelencia. Asimismo, mantenemos un compromiso interno de responsabilidad para la mejora continua y el desarrollo íntegro de la empresa.
 			</div>
 
-			<div class="bg-green-700 text-white p-3 rounded-sm hidden font-semibold shadow" data-index="1">
+			<div class="bg-green-700 text-white px-8 py-16 rounded-sm hidden font-semibold shadow text-center text-xl" data-index="1">
 				Trabajamos sinérgicamente, tanto con nuestros clientes como dentro de nuestro equipo de trabajo, procurando la comunicación clara y efectiva, motivando el diálogo y tomando en cuenta diferentes puntos de vista. Fomentamos la motivación y el liderazgo de todos los miembros involucrados con nuestros procesos.
 			</div>
 
-			<div class="bg-orange-700 text-white p-3 rounded-sm hidden font-semibold shadow" data-index="2">
+			<div class="bg-orange-700 text-white px-8 py-16 rounded-sm hidden font-semibold shadow text-center text-xl" data-index="2">
 				Buscamos nuestro crecimiento continuo, tanto personal como profesional, y creemos en el aprendizaje constante, siendo al mismo tiempo partícipes del desarrollo de los miembros de nuestro equipo de trabajo, de nuestra empresa y de la sociedad que nos rodea.
 			</div>
 
-			<div class="bg-gray-700 text-white p-3 rounded-sm hidden font-semibold shadow" data-index="3">
+			<div class="bg-gray-700 text-white px-8 py-16 rounded-sm hidden font-semibold shadow text-center text-xl" data-index="3">
 				Somos fieles a nuestros valores y trabajamos con honestidad como una herramienta clave en nuestras relaciones profesionales. Cuidamos a nuestros clientes y buscamos asegurar el compromiso de responsabilidad que tenemos al trabajar con ellos.
 			</div>
 		</div>
@@ -317,8 +317,10 @@
 		$('#titles').find('a').click(function() {
 			$('#titles').find('a').removeClass('border-l border-t border-r rounded-t text-blue-700')
 			$('#titles').find('a').addClass('text-blue-500 hover:text-blue-800')
+			$('#titles').find('a').parent().removeClass('-mb-px')
 			$(this).addClass('border-l border-t border-r rounded-t text-blue-700')
 			$(this).removeClass('text-blue-500 hover:text-blue-800')
+			$(this).parent().addClass('-mb-px')
 
 			$('#cards').children().addClass('hidden')
 			$($('#cards').children()[$(this).data('index')]).removeClass('hidden')
